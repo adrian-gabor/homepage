@@ -1,0 +1,28 @@
+body
+{
+    background-color: var(--platinum);
+    /* CSS HEX */
+    --plump-purple: #52489cff;
+    --true-blue: #4062bbff;
+    --maximum-blue-green: #59c3c3ff;
+    --platinum: #ebebebff;
+    --fiery-rose: #f45b69ff;
+}
+
+
+.navigation{
+    background-color: var(--fiery-rose);
+    border-radius: 5px;
+}
+
+.navigation__link{
+    color: var(--plump-purple);
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px 10px;
+    border: solid 2px var(--true-blue);
+    padding: 10px;
+    border-radius: 5px;
+}
