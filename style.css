@@ -26,3 +26,37 @@ body
     padding: 10px;
     border-radius: 5px;
 }
+
+
+main{
+    background-color: var(--maximum-blue-green);
+    width: 1000px;
+    min-height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-title{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--plump-purple);
+    padding-top: 20px;
+}
+
+.post{
+    padding: 0 20px;
+    border: solid 5px var(--true-blue);
+    border-radius: 20px;
+    margin-bottom: 15px;;
+}
+
+.post__title{
+    color: var(--true-blue);
+    text-align: center;
+}
+
+.post__description{
+    text-align: justify;
+    
+}
+
