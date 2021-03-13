@@ -1,0 +1,23 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jquery-3.2.1.min.js",
+  "scripts": {
+    "sass": "npx node-sass -w style.scss style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrian-gabor/homepage.git"
+  },
+  "author": "Adrian Gabor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrian-gabor/homepage/issues"
+  },
+  "homepage": "https://github.com/adrian-gabor/homepage#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
